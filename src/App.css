@@ -1,0 +1,20 @@
+:root {
+  --background-color: #595959;
+  --font-color: hsla(0, 0%, 90%, 0.85);
+  --data-color: hsla(0, 0%, 90%, 0.562);
+  --textbacking: #1D1D1D; 
+
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+:root::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}

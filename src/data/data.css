@@ -1,0 +1,257 @@
+.Trackersdata-container{
+    margin: 0;
+    padding: 0;
+
+    width: fit-content;
+    width: fit-content;
+
+    zoom: 2;
+}
+
+.Trackersdata-ppTitle{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+
+    top: 174px;
+    left: 178px;
+
+    font-size: 9px;
+    color: var(--font-color);
+    user-select: none;
+}
+.Trackersdata-ppCount{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 170.5px;
+    left: 137px;
+    width: 30px;
+    
+    text-align: center;
+    user-select: none;
+}
+.Trackersdata-ppMinus{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: unset;
+
+    color: var(--font-color);
+
+    top: 168.6px;
+    left: 237px;
+
+    width: 18px;
+    height: 21px;
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    user-select: none;
+}
+.Trackersdata-ppPlus{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: unset;
+
+    color: var(--font-color);
+
+    top: 170.8px;
+    left: 259.3px;
+
+    width: 18px;
+    height: 19px;
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    user-select: none;
+}
+.Trackersdata-ppMinus:active{
+    color: #d4a3a3;
+}
+.Trackersdata-ppPlus:active{
+    color: #ffffff;
+}
+
+.Trackersdata-Rolldiceinput{
+    all: unset;
+    margin: 0;
+    padding: 0;
+
+    position:absolute;
+    top: 16px;
+    left: 15px;
+
+    width: 138px;
+    height: 1em;
+
+    border: 0;
+    background-color: var(--textbacking);
+    color: var(--font-color);
+}
+.Trackersdata-Rolldicedata{
+    margin: 0;
+    padding: 0;
+
+    position:absolute;
+    top: 40px;
+    left: 15px;
+
+    width: 180px;
+    height: 145px;
+
+    font-size: .7em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    text-align: "left";
+    scrollbar-width: none;
+    color: var(--font-color);
+}
+.Trackersdata-Rolldicedata::-webkit-scrollbar {
+    display: none;
+}
+
+.Trackersdata-StressTitle{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 165px;
+
+    top: 24px;
+    left: 219px;
+
+    font-size: 13px;
+    text-align: center;
+    color: var(--font-color);
+    user-select: none;
+}
+.Trackersdata-Issuetracker0{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 44px;
+    left: 272px;
+
+    width: 128px;
+    height: fit-content;
+}
+.Trackersdata-Issuetracker1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 67.8px;
+    left: 272px;
+
+    width: 128px;
+    height: fit-content;
+}
+.Trackersdata-Issuetracker2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 90px;
+    left: 272px;
+
+    width: 128px;
+    height: fit-content;
+}
+
+.Trackersdata-TraumaTitle{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 165px;
+
+    top: 117.8px;
+    left: 219px;
+
+    font-size: 13px;
+    text-align: center;
+    color: var(--font-color);
+    user-select: none;
+}
+.Trackersdata-Traumatracker{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 138px;
+    left: 272px;
+
+    width: 128px;
+    height: 16px;
+}
+
+.Trackersdata-Issuetracker-default{
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+
+    margin: 0;
+    padding: 0;
+    
+    appearance: initial;
+    border: none;
+    background: transparent;
+}
+
+.Trackersdata-Issuetracker-default:checked {
+    opacity: 100;
+
+    width: 16px;
+    height: 16px;
+}
+
+.Trackersdata-Issuetracker-default:checked:after {
+    width: 16px;
+    height: 16px;
+}
+
+.Td-It-d4{
+    margin-left: 10px;
+}
+.Td-It-d4:checked:after {
+    content: "\0034";
+    color: #ffffff;
+}
+
+.Td-It-d6{
+    margin-left: 3px;
+}
+.Td-It-d6:checked:after {
+    content: "\0036";
+    color: #e7cccc;
+}
+
+.Td-It-d8{
+    margin-left: 8px;
+}
+.Td-It-d8:checked:after {
+    content: "\0038";
+    color: #d4a3a3;
+}
+
+.Td-It-d10{
+    margin-left: 5.2px;
+}
+.Td-It-d10:checked:after {
+    content: "\0031\0030";
+    color: #bd7272;
+}
+
+.Td-It-d12{
+    margin-left: 9.2px;
+}
+.Td-It-d12:checked:after {
+    content: "\0031\0032";
+    color: #860404;
+}
