@@ -18,3 +18,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.App{
+  padding-top: 1em;
+  display: grid;
+}
+
+.Trackersdata-container{
+  justify-self:center;
+  zoom: 2;
+}

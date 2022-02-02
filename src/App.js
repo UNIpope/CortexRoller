@@ -4,7 +4,7 @@ import Trackers from "./data";
 
 function App() {
   return (
-    <div classname="App">
+    <div className="App">
       <Trackers />
     </div>   
   );
